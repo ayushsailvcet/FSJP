@@ -1,3 +1,15 @@
+/* 
+EXP - 1
+Create a Java program to manage the details of a Student. The program should use a class
+called Student with the following attributes:
+	● name (String)
+	● rollNumber (int)
+	● marks (float)
+The class should have:
+	● A method inputDetails() to accept values from the user.
+	● A method displayDetails() to display the student’s details.
+*/
+
 import java.util.*;
 
 
@@ -22,7 +34,7 @@ class student {
 }
 
 
-class main{
+public class student_details {
  	 public static void main(String x[]) {	
    	 	Scanner s = new Scanner(System.in);
   
