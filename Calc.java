@@ -1,3 +1,16 @@
+/* 
+EXP - 2
+Write a Java program to create a class called Calculator that demonstrates:
+1. Constructor Overloading — define two constructors:
+	○ One default constructor that prints a welcome message.
+	○ One parameterized constructor that takes two numbers and displays their sum.
+
+2. Method Overloading — create a method add() with:
+	○ No parameters (adds two default numbers 5 and 10).
+	○ Two integer parameters (adds two integers passed to it).
+	○ Three float parameters (adds three floats passed to it).
+*/
+
 class Calculator {
     int a, b;
 
@@ -24,7 +37,7 @@ class Calculator {
     }
 }
 
-public class exp2 {
+public class Calc {
     public static void main(String[] args) {
         Calculator c1 = new Calculator();
         Calculator c2 = new Calculator(10);
